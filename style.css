@@ -915,8 +915,8 @@ footer {
         width: 100%;
     }
 
-    .world {
-        margin: 100px auto;
+    .world .slides .card {
+        width: 100%;
         justify-items: center;
 
     }
