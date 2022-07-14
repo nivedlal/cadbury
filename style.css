@@ -916,8 +916,7 @@ footer {
     }
 
     .world {
-        margin: 100px auto;
-        justify-items: center;
+        width: 100% justify-items: center;
 
     }
 
