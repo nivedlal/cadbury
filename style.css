@@ -794,6 +794,11 @@ footer {
 
 
 /* media section */
+@media (max-width:350px) {
+ .home{
+        width:fit-content;
+    }
+}
 @media (max-width:827px) {
     .menu-btn {
         color: #fff;
