@@ -795,7 +795,10 @@ footer {
 
 /* media section */
 @media (max-width:350px) {
- .home{
+ body{
+        width:min-content;
+    }
+    .home{
         width:fit-content;
     }
 }
