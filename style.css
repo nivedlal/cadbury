@@ -794,12 +794,46 @@ footer {
 
 
 /* media section */
-@media (max-width:350px) {
- body{
-        width:min-content;
+@media (max-width:350px) {  
+    .home .home-content .text-0 {
+        font-size: 50px;
+    }
+    .wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    }  
+    .wrapper .box {
+        width: 250px;
+        margin: 0 0;
+        position: relative;
+        perspective: 1000px;
+    }
+
+}
+@media (max-width:380px) {
+    .home{
+        margin-left: -15%;
+        padding:30% 10%;
+    }
+    .products{
+        margin-left: -15%;
+        padding:20% 10%;
+    }
+}
+
+@media (max-width:500px) {
+    html, body{
+        display: inline-block;
+        max-width: 100%;
+        overflow-x: hidden;
+        position: relative;
     }
     .home{
         width:fit-content;
+        height: 100%;
+    }
+    .products{
+        width:fit-content;
+        height: 100%;
     }
 }
 @media (max-width:827px) {
